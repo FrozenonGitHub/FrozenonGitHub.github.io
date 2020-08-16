@@ -15,7 +15,7 @@ I assume that you already have a GitHub account and git installed on your PC.
 
 ## Create Your GitHub Repository
 Your blog will be available at [https://username.github.io](), supported by GitHub. See [GitHub Pages](https://pages.github.com) for detail. 
-- First, we need to create a new repository on GitHub name <username>.github.io, where <username> is your GitHub user name.
+- First, we need to create a new repository on GitHub name `username.github.io`, where `username` is your GitHub user name.
 - Clone the repository by running the following command:
 ``` bash
 $ git clone https://github.com/<username>/<username>.github.io.git
@@ -70,9 +70,9 @@ deploy:
   - You can also use SSH for repo address, which requires SSH key match.
   - Your blog will be deployed on branch 'master' as default. If you want to store your source code (e.g. modification to themes, markdown files) in the same repository, you'd better create another branch for such purpose. After deployment, the remote 'master' branch will have different files, which will cause conflict.
 
-2. install hexo-deployer-git plugin via npm:
+2. install hexo-deployer-git plugin via npm
 3. run ```hexo d``` to deploy your blog on GitHub.
-4. Check it out for yourself: [https://<username>.github.io]()
+4. Check it out for yourself: [https://username.github.io]()
 
 ## Change Hexo Blog Theme
 
